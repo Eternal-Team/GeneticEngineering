@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Terraria.ModLoader;
 
 namespace GeneticEngineering

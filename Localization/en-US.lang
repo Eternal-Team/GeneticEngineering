@@ -1,2 +1,5 @@
 ItemName.Syringe=Syringe
 ItemTooltip.Syringe=Prick a NPC to get its blood
+
+ItemName.SimpleBloodAnalyzer=Simple Blood Analyzer
+ItemTooltip.SimpleBloodAnalyzer=Extract ability cells from blood

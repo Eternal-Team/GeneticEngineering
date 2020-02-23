@@ -11,6 +11,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Libraries\BaseLibrary\BaseLibrary.csproj" />
+		<ProjectReference Include="..\Libraries\ContainerLibrary\ContainerLibrary.csproj" />
 	</ItemGroup>
 	<Target Name="BuildMod" AfterTargets="Build">
 		<Exec Command="&quot;$(tMLBuildServerPath)&quot; -build &quot;$(ProjectDir.TrimEnd('\'))&quot; -eac &quot;$(TargetPath)&quot; -define $(DefineConstants) -unsafe $(AllowUnsafeBlocks)" />
